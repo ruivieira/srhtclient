@@ -17,8 +17,8 @@
  */
 
 export interface Collection<T> {
-    next: any,
-    results: T[],
-    total: number,
-    results_per_page: number
+  next: any;
+  results: T[];
+  total: number;
+  results_per_page: number;
 }

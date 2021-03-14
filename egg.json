@@ -1,0 +1,22 @@
+{
+  "name": "srhtclient",
+  "entry": "./mod.ts",
+  "description": "A Deno client to sourcehut REST API",
+  "homepage": "https://git.sr.ht/~ruivieira/srhtclient",
+  "unstable": true,
+  "unlisted": false,
+  "version": "0.1.0",
+  "releaseType": "minor",
+  "files": [
+    "./mod.ts",
+    "./rest/**/*",
+    "./README.md"
+  ],
+  "ignore": [
+    ".git"
+  ],
+  "checkFormat": "deno fmt",
+  "checkTests": "deno test",
+  "checkInstallation": true,
+  "check": true
+}
